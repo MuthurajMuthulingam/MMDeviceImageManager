@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMDeviceImageManager_Example' do
+  pod 'MMDeviceImageManager', :path => '../'
+
+  target 'MMDeviceImageManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
