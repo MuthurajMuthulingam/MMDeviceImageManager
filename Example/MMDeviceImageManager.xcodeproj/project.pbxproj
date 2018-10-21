@@ -30,10 +30,10 @@
 /* Begin PBXFileReference section */
 		06D9FD0D7A82EEE7B329671C /* Pods-MMDeviceImageManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDeviceImageManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-MMDeviceImageManager_Tests/Pods-MMDeviceImageManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0BE0DA851BC34FD5C1921682 /* Pods-MMDeviceImageManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDeviceImageManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-MMDeviceImageManager_Example/Pods-MMDeviceImageManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		11FBE65E9CB6457C45AEF35C /* MMDeviceImageManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMDeviceImageManager.podspec; path = ../MMDeviceImageManager.podspec; sourceTree = "<group>"; };
+		11FBE65E9CB6457C45AEF35C /* MMDeviceImageManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMDeviceImageManager.podspec; path = ../MMDeviceImageManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2F0456B8052F5C924BE42589 /* Pods_MMDeviceImageManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMDeviceImageManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F490A08C536047E2EE3C034 /* Pods-MMDeviceImageManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDeviceImageManager_Example.release.xcconfig"; path = "Target Support Files/Pods-MMDeviceImageManager_Example/Pods-MMDeviceImageManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5D505DF8472BB777DA051AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5D505DF8472BB777DA051AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MMDeviceImageManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDeviceImageManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		84F4140D3DCE9EBE782E2B91 /* Pods-MMDeviceImageManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDeviceImageManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MMDeviceImageManager_Tests/Pods-MMDeviceImageManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		98FBD1B77B2AFE982B05F53B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		98FBD1B77B2AFE982B05F53B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EC5DD323E4479E212F48FF16 /* Pods_MMDeviceImageManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMDeviceImageManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				84F4140D3DCE9EBE782E2B91 /* Pods-MMDeviceImageManager_Tests.debug.xcconfig */,
 				06D9FD0D7A82EEE7B329671C /* Pods-MMDeviceImageManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -267,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MMDeviceImageManager_Example/Pods-MMDeviceImageManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MMDeviceImageManager/MMDeviceImageManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDeviceImageManager.framework",
 			);
@@ -289,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MMDeviceImageManager_Tests-checkManifestLockResult.txt",
 			);
@@ -311,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MMDeviceImageManager_Example-checkManifestLockResult.txt",
 			);

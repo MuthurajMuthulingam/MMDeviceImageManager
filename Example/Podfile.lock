@@ -1,0 +1,16 @@
+PODS:
+  - MMDeviceImageManager (0.1.0)
+
+DEPENDENCIES:
+  - MMDeviceImageManager (from `../`)
+
+EXTERNAL SOURCES:
+  MMDeviceImageManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMDeviceImageManager: f7e417d68f117bd7c86d612030dd65d738a76224
+
+PODFILE CHECKSUM: 32be6222758b0292d5441570c6095849bee44eb6
+
+COCOAPODS: 1.6.0.beta.1
