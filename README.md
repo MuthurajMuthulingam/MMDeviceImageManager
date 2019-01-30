@@ -9,6 +9,21 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+To use MMDeviceImageManager,
+
+import where you want to use this like below,
+```ruby
+import MMDeviceImageManager
+```
+
+It supports two modes,
+
+1. Standard way of getting image using a Action sheet from bottom. (This comes free of cost)
+2. Custom approach
+   - Using Custom, You do provide your own interface to show various options (Gallery, Camera) 
+   - Once user input received, You can ask our manager to pick image from Gallery or Camera with appropriate calls
+   
+
 ## Requirements
 
 ## Installation
