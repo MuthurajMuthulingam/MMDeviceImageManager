@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MuthurajMuthulingam/MMDeviceImageManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '18.0'
   s.swift_version = '4.0'
 
   s.source_files = 'MMDeviceImageManager/Classes/**/*'
